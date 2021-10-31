@@ -7,7 +7,7 @@ Tested on nodejs 10
 
 # Installation
 ```
-git clone https://github.com/dcolley/prometheus-phoenixminer-exporter
+git clone https://github.com/metaspan/prometheus-phoenixminer-exporter
 cd prometheus-phoenixminer-exporter
 npm install 
 node exporter.js
