@@ -9,11 +9,12 @@ const app = require("express")();
 
 // Prometheus Job should scrape http://[host_or_ip]:[PORT]/metrics
 const PORT = 3000
-
+const TGTPORT = process.env.PORT
+const TGTIP = process.env.IP
 // Phoenix Miner API
 const config ={
-	host: 'localhost',
-	port: 3333
+	host: TGTIP,
+	port: TGTPORT
 }
 
 // Prefix used for exporter items e.g. "${PREF}_metric 123"

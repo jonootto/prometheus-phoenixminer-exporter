@@ -1,0 +1,19 @@
+{
+  "name": "prometheus-phoenixminer-exporter",
+  "version": "1.0.0",
+  "description": "Prometheus Exporter for PhoenixMiner",
+  "main": "exporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonootto/prometheus-phoenixminer-exporter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonootto/prometheus-phoenixminer-exporter/issues"
+  },
+  "homepage": "https://github.com/jonootto/prometheus-phoenixminer-exporter#readme"
+}
