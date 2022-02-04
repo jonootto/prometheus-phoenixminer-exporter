@@ -3,6 +3,7 @@
 const net = require("net")
 const moment = require("moment-timezone")
 const app = require("express")();
+const process = require('process')
 
 //-----------------------------------------------------------------------------------
 // You can change these settings ====================================================
@@ -165,7 +166,7 @@ app.get('/metrics', async (req, res) => {
 
 app.listen(PORT)
 
-var process = require('process')
+
 process.on('SIGINT', () => {
   console.info("Interrupted")
   process.exit(0)
