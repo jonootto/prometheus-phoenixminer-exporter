@@ -1,6 +1,10 @@
 {
   "name": "prometheus-phoenixminer-exporter",
   "version": "1.0.0",
+  "dependencies": {
+    "moment-timezone": "moment/moment-timezone",
+    "express": "expressjs/express"
+  },
   "description": "Prometheus Exporter for PhoenixMiner",
   "main": "exporter.js",
   "scripts": {
