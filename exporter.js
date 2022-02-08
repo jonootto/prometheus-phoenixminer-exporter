@@ -76,7 +76,7 @@ class PhoenixMinerExporter {
 			})
 
 			.on('data', function(data) {
-				//console.log('Received: ' + data);
+				console.log('Received: ' + data);
 				try{
 					var api = JSON.parse(data);
 					//console.debug(api)
